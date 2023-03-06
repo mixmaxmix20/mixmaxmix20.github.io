@@ -9,7 +9,6 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 1;
-    position: absolute;
     text-align: left;
 }
 
@@ -56,17 +55,16 @@ header {
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
 }
 
 article {
-    width: 100%;
-    height: 200px;
-}
-
-a {
-    color: white;
+    width: inherit;
+    height: 50%;
+    background-color: hsla(240, 70%, 75%, 1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
